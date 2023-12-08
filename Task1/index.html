@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSINESS BANK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #005cbf;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0077cc;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        main {
+            padding: 2em;
+            text-align: justify;
+        }
+
+        main h2 {
+            color: #005cbf;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 0.5em;
+            position: relative;
+        }
+
+        li::before {
+            content: '\2022'; /* Bullet point */
+            color: #005cbf;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            position: absolute;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            opacity: 0.8;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+
+        .advertisement {
+            background-color: #005cbf;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 60px;
+            width: 100%;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="bank.jpeg" alt="Business Bank Logo" class="logo">
+        <h1>BUSINESS BANK</h1>
+        <p>Your Gateway to Financial Excellence <i class="fas fa-rocket"></i></p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Products/Services</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <main>
+        <h2>About Us</h2>
+        <p>Welcome to BUSINESS BANK, where innovation meets reliability</p>
+
+        <h2>Our Products/Services</h2>
+        <ul>
+            <li>Business Accounts</li>
+            <li>Loans and Financing</li>
+            <li>Online Banking Services</li>
+        </ul>
+
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us:</p>
+        <p>Email: info@businessbank.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </main>
+
+    <footer>
+        &copy; 2023 BUSINESS BANK. All rights reserved.
+    </footer>
+
+    <a href="#"><div class="advertisement">
+        <p>Open a Business Bank account in 10 minutes and get a credit card for free! <i class="far fa-credit-card"></i> Limited offer for select customers!</p>
+    </div>
+    </a>
+
+</body>
+</html>

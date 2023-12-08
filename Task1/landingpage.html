@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Finances</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Raleway', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #2980b9;
+            padding: 1em 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        main {
+            padding: 2em;
+            text-align: justify;
+        }
+
+        main h2 {
+            color: #3498db;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 1em;
+            position: relative;
+        }
+
+        li::before {
+            content: '\25A0'; /* Solid square */
+            color: #3498db;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            position: absolute;
+        }
+
+        footer {
+            background-color: #34495e;
+            color: #bdc3c7;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            opacity: 0.8;
+        }
+
+        .logo {
+            width: 80px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .advertisement {
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 60px;
+            width: 100%;
+            animation: shake 1s infinite;
+        }
+
+        @keyframes shake {
+            0%, 100% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(5px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="futuristic-logo.png" alt="Futuristic Finances Logo" class="logo">
+        <h1>Futuristic Finances</h1>
+        <p>Your Path to Financial Innovation <i class="fas fa-rocket"></i></p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Innovation</a>
+        <a href="#">Financial Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Innovation Redefined</h2>
+        <p>Welcome to Futuristic Finances, where we redefine the future of financial services with cutting-edge innovation.</p>
+
+        <h2>Our Services</h2>
+        <ul>
+            <li>Advanced Investment Solutions</li>
+            <li>Futuristic Banking Experience</li>
+            <li>Blockchain-powered Transactions</li>
+        </ul>
+
+        <h2>Contact Information</h2>
+        <p>Connect with us:</p>
+        <p>Email: info@futuristicfinances.com</p>
+        <p>Phone: (555) 123-4567</p>
+    </main>
+
+    <footer>
+        &copy; 2023 Futuristic Finances. Innovate Your Future.
+    </footer>
+
+    <a href="#"><div class="advertisement">
+        <p>Experience the future of finance! Open an account today and receive exclusive benefits. <i class="fas fa-gift"></i> Limited offer!</p>
+    </div>
+    </a>
+
+</body>
+</html>
